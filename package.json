@@ -1,0 +1,26 @@
+{
+  "name": "sig-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "buffer": "^4.5.0",
+    "sys": "^0.0.1",
+    "node-png": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesflo/steam-signature-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesflo/steam-signature-maker/issues"
+  },
+  "homepage": "https://github.com/milesflo/steam-signature-maker#readme"
+}
