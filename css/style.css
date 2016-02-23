@@ -1,0 +1,42 @@
+body {
+	background-color: #111;
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Awesome-Gun-metal-Black-Pattern-for-background.jpg");
+	background-repeat: all;
+}
+
+.container {
+	width: 760px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+header {
+	border-radius: 5px 5px 0 0;
+	background-color: #829435;
+	color: #ffe076;
+	height: 100px;
+	padding-top: 27px;
+	border-bottom: 1px solid #A2C511; 
+}
+
+h1 {
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 575px;
+	display: block;
+}
+
+.view{
+	height: 500px;
+	background-color: #e9c95b;
+	border-radius: 0 0 5px 5px;
+}
+
+.outline {
+	text-shadow: 
+		 1px  1px 0 #CDA312,
+		-1px  1px 0 #CDA312,
+		 1px -1px 0 #CDA312,
+		-1px -1px 0 #CDA312;
+
+}

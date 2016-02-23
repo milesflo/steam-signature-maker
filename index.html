@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="SigGen">
 <head>
-	<title>{{$scope.header.name}}</title>
+	<title>Merryweather Nameplate Creator</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div>
-			<h1>Hello</h1>
+	<div class="container">
+		<header>
+			<div>
+				<h1 class="outline">Merryweather Dog-Tag Generator</h1>
+			</div>
+		</header>
+
+		<div class="view" ng-view>
+			
 		</div>
-	</header>
-
-	<div class="view" ng-view>
-		
 	</div>
-
 	<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js'></script>
 	<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js'></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
